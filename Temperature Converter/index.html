@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <p>Convert temperature easily</p>
+
+        <div class="converter">
+            <input type="number" id="temperature" placeholder="Enter temperature">
+
+            <select id="fromUnit">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+
+            <p>To</p>
+
+            <select id="toUnit">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+
+            <button id="convertBtn">Convert</button>
+            <button id="resetBtn">Reset</button>
+        
+            <h2 id="result">Result will appear here</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
